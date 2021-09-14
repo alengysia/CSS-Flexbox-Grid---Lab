@@ -1,0 +1,72 @@
+/* reset css */
+body {
+    background-color: rgba(41,94,95,1);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 75px;
+    background-color: lightgray;
+    width: 200px;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user{
+    margin-top: 25px;
+    width: 100px;
+    border-radius: 50px;
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 200px;
+    background-color: rgb(187, 186, 186);
+}
+.stars{
+    width: 20px;
+    margin-top: 5px;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(187, 186, 186);
+    width: 200px;
+}
+
+.low-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.low-mid p {
+    margin-top: -10px;
+}
+
+.bottom{
+    margin-top: 15px;
+    display: flex;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(46, 126, 23);
+    justify-content: space-evenly;
+}
+.phone{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.message {
+    width: 50px;
+}
